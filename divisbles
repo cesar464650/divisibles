@@ -1,0 +1,25 @@
+#include <stdio.h>
+//Flores Castillo Cesar Roberto
+
+int main(void){
+	int a, b, c, r;
+	
+	printf("Digite el valor de A\n");
+	scanf("%d",&a);
+	printf("Digite el valor de B\n");
+	scanf("%d",&b);
+	printf("Digite el valor de C\n");
+	scanf("%d",&c);
+	
+	if(c%a==0)
+	printf("%d es divisible entre %d\n",c,a);
+	else
+	printf("%d no es divisible entre %d\n",c,a);
+	
+	if(c%b==0)
+	printf("%d es divisible entre %d",c,b);
+	else
+	printf("%d no es divisible entre %d",c,b);
+	
+	return 0;
+}
